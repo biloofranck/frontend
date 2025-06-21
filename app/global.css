@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 *{
-    background-color: #fff;
+    scrollbar-width: none;
 }

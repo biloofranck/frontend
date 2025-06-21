@@ -14,17 +14,20 @@ export default function Layout() {
         options={{ headerShown: false }}
       />
 
+      <Stack.Screen name="signin" options={{ headerShown: false }} />
+
+      <Stack.Screen name="screens/default" options={{ headerShown: false }} />
+      <Stack.Screen name="screens/signup" options={{ headerShown: false }} />
+      <Stack.Screen name="screens/welcome" options={{ headerShown: false }} />
+      <Stack.Screen name="screens/home" options={{ headerShown: false }} />
       <Stack.Screen
-        name="signin"
+        name="screens/voiceScreen"
         options={{ headerShown: false }}
       />
-
-       <Stack.Screen
-        name="screens/signup"
+      <Stack.Screen
+        name="screens/signSpeech"
         options={{ headerShown: false }}
       />
-
-     
     </Stack>
   );
 }

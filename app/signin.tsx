@@ -1,6 +1,6 @@
 import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import Checkbox from "expo-checkbox";
+import {Checkbox} from "expo-checkbox";
 import React, { useState } from "react";
 import { useRouter
  } from "expo-router";
@@ -26,6 +26,7 @@ const SignIn = () => {
       </View>
 
       <View className="flex-1 px-6">
+        
         {/* Email input */}
         <View className="flex-row items-center bg-[#C4C4C433] h-[60px] rounded-3xl px-4 py-3 mb-4">
           <TextInput
@@ -35,7 +36,7 @@ const SignIn = () => {
           />
           <Ionicons name="mail-outline" size={20} color="#0000004D" />
         </View>
-
+        
         {/* Password input */}
         <View className="flex-row items-center bg-[#C4C4C433] h-[60px] rounded-3xl px-4 py-3 mb-2">
           <TextInput
@@ -63,7 +64,7 @@ const SignIn = () => {
         </View>
 
         {/* Login Button */}
-        <TouchableOpacity className="bg-[#6C63FF] py-3 rounded-xl mt-20 mb-4">
+        <TouchableOpacity onPress={() => navigate.push("/screens/welcome")} className="bg-[#6C63FF] py-3 rounded-xl mt-20 mb-4">
           <Text className="text-white text-center text-base font-semibold">Login</Text>
         </TouchableOpacity>
 

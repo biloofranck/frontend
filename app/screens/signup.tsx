@@ -83,7 +83,7 @@ const SignUp = () => {
 
         {/* Register */}
         <Text className="text-center text-sm text-gray-600">
-          New Member?<TouchableOpacity onPress={()=> navigate.push("/signin")}><Text className="text-[#6C63FF] font-semibold">login now</Text></TouchableOpacity>
+          New Member?<TouchableOpacity onPress={()=> navigate.push("/signin")}><Text className="text-[#6C63FF] font-semibold"> login now</Text></TouchableOpacity>
         </Text>
       </View>
     </>
