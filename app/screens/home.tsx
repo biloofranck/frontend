@@ -23,7 +23,7 @@ const HomeScreen = () => {
         <View className="flex-row justify-between mt-12 items-center px-6 py-4">
           <View className="flex-row items-center gap-4">
             <Image
-              source={require("../../assets/images/barnly.jpeg")}
+              source={require("../../assets/images/dope.jpeg")}
               style={{
                 height: height * 0.1,
                 width: height * 0.1,
@@ -33,7 +33,7 @@ const HomeScreen = () => {
             />
             <View>
               <Text className="text-sm text-gray-500">Hi, welcome back</Text>
-              <Text className="text-2xl font-bold text-primary">John Doe</Text>
+              <Text className="text-2xl font-bold text-primary">Mr Nitidem</Text>
             </View>
           </View>
 
@@ -65,7 +65,7 @@ const HomeScreen = () => {
           />
           <View className="pb-6 mb-4">
             <Text className="text-primary font-bold text-3xl text-center">
-              Hi John Doe
+              Hi Nitidem
             </Text>
             <Text className="text-sm font-semibold text-center">
               Let&rsquo;s dive in and enjoy the world of voices!
@@ -151,6 +151,7 @@ const HomeScreen = () => {
                 width: width * 0.42,
               }}
               className="bg-[#ffff] rounded-xl p-2 mt-4"
+          
             >
               <Ionicons
                 name="move"
@@ -191,6 +192,7 @@ const HomeScreen = () => {
                 padding: 12,
                 marginTop: height * 0.03,
               }}
+              className="py-6"
             />
           </View>
           <Text className="text-primary font-bold text-2xl mt-4">

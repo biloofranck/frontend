@@ -20,6 +20,7 @@ export default function Layout() {
       <Stack.Screen name="screens/signup" options={{ headerShown: false }} />
       <Stack.Screen name="screens/welcome" options={{ headerShown: false }} />
       <Stack.Screen name="screens/home" options={{ headerShown: false }} />
+      <Stack.Screen name="screens/speechToSign" options={{ headerShown: false }} />
       <Stack.Screen
         name="screens/voiceScreen"
         options={{ headerShown: false }}
